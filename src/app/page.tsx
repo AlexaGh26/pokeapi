@@ -1,7 +1,7 @@
-import { Home } from "@/app/pages/home/page";
+import { Home } from "./pages/home";
 
 export default function Main() {
   return (
-    <Home></Home>
+    <Home result={' undefined'}></Home>
   )
 }
