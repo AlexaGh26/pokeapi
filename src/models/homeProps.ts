@@ -8,6 +8,14 @@ export interface PokemonKeys {
     details: PokemonDetails ;
 }
 
+export interface Types {
+    slot: number;
+    type: {
+        name: string;
+        url: string;
+    }
+}
+
 export interface PokemonDetails {
     sprites: {
         back_default: string; 
@@ -19,4 +27,5 @@ export interface PokemonDetails {
         front_shiny: string;
         front_shiny_female: string;
     }
+    types: Types[];
 }
